@@ -10,7 +10,7 @@ public class NamedEntityRecognition {
 
     public static void main(String[] args) {
 
-        String str = "Hi there, How are you Gurpreet?";
+        String str = "Hi there, How are you Mr. Barack Obama?";
         List<String> names = findNames(str);
         for (String name : names) {
             if (!name.equals("0"))
